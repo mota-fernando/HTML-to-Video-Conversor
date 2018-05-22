@@ -20,7 +20,6 @@ class GetContent {
 		$this->url = "https://pt.wikihow.com";
 		
 	}
-	
 	function SetMainAddress($url) {
 		
 		$options = array(
@@ -34,7 +33,6 @@ class GetContent {
 		
 		$this->html = file_get_contents($url, false, $context);
 	}
-	
 	function FindLinks() { //crawler
 	
 		$dom = new DOMDocument();
@@ -75,14 +73,13 @@ class GetContent {
 		}
 	
 	}
-	
 	function FollowLinks ($link){
 		
 		
 		
 		
-	}
-			
+		
+	}	
 	function FilterTitle($url){
 
 		$cap_content = strstr($url,'<h1 class="firstHeading no_toc">');
