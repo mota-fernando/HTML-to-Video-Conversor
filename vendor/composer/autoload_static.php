@@ -18,6 +18,10 @@ class ComposerStaticInitb87071ee8716e86ad04649ba909e4dd7
         array (
             'phpseclib\\' => 10,
         ),
+        'S' => 
+        array (
+            'Stash\\' => 6,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -45,6 +49,10 @@ class ComposerStaticInitb87071ee8716e86ad04649ba909e4dd7
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'Stash\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tedivm/stash/src/Stash',
         ),
         'Psr\\Log\\' => 
         array (
