@@ -1,0 +1,28 @@
+<?php
+
+
+class Connection {
+	
+	private $conn;
+	
+	public function Connection (){
+		
+		$this->conn = mysqli_connect("127.0.0.1","root","","html2video");
+		
+		if (!$this->conn){
+			
+			echo "Mysql connection does not established";
+			
+		}
+		
+		return $this->conn
+		
+	}
+	
+	public function CloseConnection(){
+		
+		mysqli_close($this->conn);
+		
+	}
+	
+}
