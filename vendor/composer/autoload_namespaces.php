@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PHPVideoToolkit\\' => array($vendorDir . '/buggedcom/phpvideotoolkit/src'),
     'Google_Service_' => array($vendorDir . '/google/apiclient-services/src'),
     'Google_' => array($vendorDir . '/google/apiclient/src'),
+    'GifCreator' => array($vendorDir . '/sybio/gif-creator/src'),
+    'FFmpeg-PHP\\' => array($vendorDir . '/buggedcom/phpvideotoolkit/emulators/ffmpeg-php'),
 );

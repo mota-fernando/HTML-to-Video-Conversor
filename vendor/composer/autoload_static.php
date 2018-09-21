@@ -85,6 +85,13 @@ class ComposerStaticInitb87071ee8716e86ad04649ba909e4dd7
     );
 
     public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PHPVideoToolkit\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/buggedcom/phpvideotoolkit/src',
+            ),
+        ),
         'G' => 
         array (
             'Google_Service_' => 
@@ -94,6 +101,17 @@ class ComposerStaticInitb87071ee8716e86ad04649ba909e4dd7
             'Google_' => 
             array (
                 0 => __DIR__ . '/..' . '/google/apiclient/src',
+            ),
+            'GifCreator' => 
+            array (
+                0 => __DIR__ . '/..' . '/sybio/gif-creator/src',
+            ),
+        ),
+        'F' => 
+        array (
+            'FFmpeg-PHP\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/buggedcom/phpvideotoolkit/emulators/ffmpeg-php',
             ),
         ),
     );

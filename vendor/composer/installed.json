@@ -1,5 +1,59 @@
 [
     {
+        "name": "buggedcom/phpvideotoolkit",
+        "version": "2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/buggedcom/phpvideotoolkit-v2.git",
+            "reference": "383a5b2c0ee7f4de4efea9a9154bb693630bbe0f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/buggedcom/phpvideotoolkit-v2/zipball/383a5b2c0ee7f4de4efea9a9154bb693630bbe0f",
+            "reference": "383a5b2c0ee7f4de4efea9a9154bb693630bbe0f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "sybio/gif-creator": "1.0.0"
+        },
+        "suggest": {
+            "monolog/monolog": "Monolog is required to utilise PHPVideoToolkits Default Logging class 'Logger_Monolog', however you can build your own logger classes so that Monolog is not required.",
+            "tedivm/stash": "Stash is required to utilise PHPVideoToolkits Default Cache class 'Cache_Stash', however you can build your own caching classes so that Stash is not required."
+        },
+        "time": "2017-09-07T08:36:56+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPVideoToolkit\\": "src/",
+                "FFmpeg-PHP\\": "emulators/ffmpeg-php/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+",
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oliver Lillie",
+                "email": "ollie@buggedcom.co.uk",
+                "role": "Freelance/Lead Developer"
+            }
+        ],
+        "description": "PHPVideoToolkit is a set of classes aimed to provide a modular, object oriented and accessible interface for interacting with videos and audio through the FFmpeg program.",
+        "keywords": [
+            "audio",
+            "ffmpeg",
+            "flv",
+            "mp3",
+            "mp4",
+            "video"
+        ]
+    },
+    {
         "name": "firebase/php-jwt",
         "version": "v3.0.0",
         "version_normalized": "3.0.0.0",
@@ -50,12 +104,12 @@
         "version_normalized": "2.0.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/google/google-api-php-client.git",
+            "url": "https://github.com/googleapis/google-api-php-client.git",
             "reference": "cd4d61678bc26267f3e5371735ae3f579709ea30"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/google/google-api-php-client/zipball/cd4d61678bc26267f3e5371735ae3f579709ea30",
+            "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/cd4d61678bc26267f3e5371735ae3f579709ea30",
             "reference": "cd4d61678bc26267f3e5371735ae3f579709ea30",
             "shasum": ""
         },
@@ -111,12 +165,12 @@
         "version_normalized": "0.56.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/google/google-api-php-client-services.git",
+            "url": "https://github.com/googleapis/google-api-php-client-services.git",
             "reference": "94ae125bd4ac33eec676142f7776c0b137cf7bc7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/94ae125bd4ac33eec676142f7776c0b137cf7bc7",
+            "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/94ae125bd4ac33eec676142f7776c0b137cf7bc7",
             "reference": "94ae125bd4ac33eec676142f7776c0b137cf7bc7",
             "shasum": ""
         },
@@ -150,12 +204,12 @@
         "version_normalized": "0.8.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/google/google-auth-library-php.git",
+            "url": "https://github.com/googleapis/google-auth-library-php.git",
             "reference": "ec4edcb043e523267973fda308d9412d7db78e17"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/ec4edcb043e523267973fda308d9412d7db78e17",
+            "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/ec4edcb043e523267973fda308d9412d7db78e17",
             "reference": "ec4edcb043e523267973fda308d9412d7db78e17",
             "shasum": ""
         },
@@ -692,6 +746,53 @@
             "log",
             "psr",
             "psr-3"
+        ]
+    },
+    {
+        "name": "sybio/gif-creator",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Sybio/GifCreator.git",
+            "reference": "250fc2f705181693c6c40b3d569d62353164bcbf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Sybio/GifCreator/zipball/250fc2f705181693c6c40b3d569d62353164bcbf",
+            "reference": "250fc2f705181693c6c40b3d569d62353164bcbf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-10-13T09:04:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "GifCreator": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Clément Guillemain",
+                "homepage": "http://clementguillemain.fr",
+                "role": "Developer / Freelancer"
+            }
+        ],
+        "description": "PHP class that creates animated GIF from multiple images",
+        "homepage": "https://github.com/Sybio/GifCreator",
+        "keywords": [
+            "animated",
+            "creation",
+            "encode",
+            "gif",
+            "php"
         ]
     }
 ]
