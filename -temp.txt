@@ -1,4 +1,0 @@
-Categoria id categoria
-Subcategora id subcategoria idcategoria
-Conteudo id titulo intro
-Passos id titulo imagem idconteudo
