@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c866a9acb1fb42ac733f2d4afad409e",
+    "content-hash": "415b0531a9765f7fac7666c3431bb53d",
     "packages": [
         {
             "name": "buggedcom/phpvideotoolkit",

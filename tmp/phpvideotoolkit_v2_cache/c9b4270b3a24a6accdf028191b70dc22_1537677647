@@ -1,0 +1,56 @@
+s:3464:"ffmpeg version 1.1.1 Copyright (c) 2000-2013 the FFmpeg developers
+  built on Jan 20 2013 23:05:28 with gcc 4.7.2 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-libass --enable-libbluray --enable-libcaca --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
+  libavutil      52. 13.100 / 52. 13.100
+  libavcodec     54. 86.100 / 54. 86.100
+  libavformat    54. 59.106 / 54. 59.106
+  libavdevice    54.  3.102 / 54.  3.102
+  libavfilter     3. 32.100 /  3. 32.100
+  libswscale      2.  1.103 /  2.  1.103
+  libswresample   0. 17.102 /  0. 17.102
+  libpostproc    52.  2.100 / 52.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\wamp64\www\html2video\vendor\buggedcom\phpvideotoolkit\examples\media\2013-01-16 00.30.02.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 0
+    compatible_brands: isom3gp4
+    creation_time   : 2013-01-15 23:30:02
+  Duration: 00:00:20.40, start: 0.000000, bitrate: 8877 kb/s
+    Stream #0:0(eng): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p, 1280x720, 8969 kb/s, SAR 1:1 DAR 16:9, 22.42 fps, 28.67 tbr, 90k tbn, 180k tbc
+    Metadata:
+      rotate          : 180
+      creation_time   : 2013-01-15 23:30:02
+      handler_name    : VideoHandle
+    Stream #0:1(eng): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 123 kb/s
+    Metadata:
+      creation_time   : 2013-01-15 23:30:02
+      handler_name    : SoundHandle
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 0
+    compatible_brands: isom3gp4
+    encoder         : Lavf54.59.106
+    Stream #0:0(eng): Video: rawvideo (I420 / 0x30323449), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 90k tbn, 28.67 tbc
+    Metadata:
+      rotate          : 180
+      creation_time   : 2013-01-15 23:30:02
+      handler_name    : VideoHandle
+    Stream #0:1(eng): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      creation_time   : 2013-01-15 23:30:02
+      handler_name    : SoundHandle
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 -> rawvideo)
+  Stream #0:1 -> #0:1 (aac -> pcm_s16le)
+Press [q] to stop, [?] for help
+Multiple frames in a packet from stream 1
+[null @ 02d4d020] Encoder did not produce proper pts, making some up.
+frame=  219 fps=0.0 q=0.0 size=N/A time=00:00:07.63 bitrate=N/A dup=68 drop=0    frame=  412 fps=401 q=0.0 size=N/A time=00:00:15.33 bitrate=N/A dup=111 drop=0    frame=  548 fps=359 q=0.0 size=N/A time=00:00:19.37 bitrate=N/A dup=122 drop=4    frame=  569 fps=361 q=0.0 Lsize=N/A time=00:00:20.60 bitrate=N/A dup=127 drop=4    
+video:36kB audio:3824kB subtitle:0 global headers:0kB muxing overhead -100.000557%
+[Parsed_volumedetect_0 @ 03054fa0] n_samples: 1957888
+[Parsed_volumedetect_0 @ 03054fa0] mean_volume: -22.0 dB
+[Parsed_volumedetect_0 @ 03054fa0] max_volume: 0.0 dB
+[Parsed_volumedetect_0 @ 03054fa0] histogram_0db: 827
+[Parsed_volumedetect_0 @ 03054fa0] histogram_1db: 691
+[Parsed_volumedetect_0 @ 03054fa0] histogram_2db: 1145";

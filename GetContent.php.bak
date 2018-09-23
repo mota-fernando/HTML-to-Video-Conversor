@@ -5,7 +5,7 @@
 @license licensed under MIT
 @copyright Copyright (c) 2018 Fernando Mota https://github.com/mota-fernando
 @package Html2video
-@version 1.0.0-beta
+@version 0.0.1-beta
 */
 class GetContent 
 {	

@@ -46,9 +46,9 @@ class Html2video{
 		print_r($is_available);
 		print_r($ffmpeg_version);
 		
-		$parser = new MediaParser ();
-		$data = $parser -> getFileInformation ( '/wamp64/www/html2video/vendor/buggedcom/phpvideotoolkit/examples/media/2013-01-16 00.30.02.mp4' );
-		echo ' <pre> ' .  print_r ( $data , true ) .  ' </ pre> ' ;
+		 $parser = new MediaParser ();
+		 $data = $parser -> getFileInformation ( '/wamp64/www/html2video/vendor/buggedcom/phpvideotoolkit/examples/media/2013-01-16 00.30.02.mp4' );
+		 echo ' <pre> ' .  print_r ( $data , true ) .  ' </ pre> ' ;
 		//echo $outputURL;
 	}
 }
